@@ -1,6 +1,7 @@
 {
-	"name": "@rbxts/roblox-ts-package-template",
-	"version": "1.0.0",
+	"name": "@rbxts/instance-cache",
+	"version": "0.1.0-ts.0",
+	"description": "Easily cache any instance to improve memory and performance.",
 	"main": "dist/init.lua",
 	"keywords": [],
 	"author": "kineticwallet",
@@ -9,6 +10,13 @@
 	"files": ["dist", "!**/*.tsbuildinfo"],
 	"publishConfig": {
 		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kineticwallet/roblox-ts-instance-cache"
+	},
+	"bugs": {
+		"url": "https://github.com/kineticwallet/roblox-ts-instance-cache/issues"
 	},
 	"packageManager": "pnpm@8.15.6+sha256.01c01eeb990e379b31ef19c03e9d06a14afa5250b82e81303f88721c99ff2e6f",
 	"devDependencies": {
@@ -21,6 +29,7 @@
 		"typescript": "=5.2.2"
 	},
 	"dependencies": {
-		"@rbxts/services": "^1.5.4"
+		"@rbxts/services": "^1.5.4",
+		"@rbxts/validate-tree": "^2.0.2"
 	}
 }

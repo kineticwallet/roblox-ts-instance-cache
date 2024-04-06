@@ -8,6 +8,9 @@ dependencies:
   '@rbxts/services':
     specifier: ^1.5.4
     version: 1.5.4
+  '@rbxts/validate-tree':
+    specifier: ^2.0.2
+    version: 2.0.2
 
 devDependencies:
   '@biomejs/biome':
@@ -133,6 +136,10 @@ packages:
   /@rbxts/types@1.0.767:
     resolution: {integrity: sha512-GTHrvI0zTZQi6MZ91pOKgOcIioqwnmZMkRDjORtoD6vvEXSwlL6wcAY26//L3npfFQoz+37SkcLq9PODgRELFA==}
     dev: true
+
+  /@rbxts/validate-tree@2.0.2:
+    resolution: {integrity: sha512-OA0E9ZjEeOpPa3XeV5/oC51aro2QFcL5dItufbagYZW8TOsX8C+FDXLx+A/ulMwcF42WcFNcQybxzcWSS/QSrA==}
+    dev: false
 
   /@roblox-ts/luau-ast@1.0.11:
     resolution: {integrity: sha512-+maoLYpqY0HK8ugLFHS3qz0phMyDaN3i21jjW75T2ZaqJg84heKDUo98iXClvnx3mUDhW10IxqH+cYJ2iftYhQ==}
